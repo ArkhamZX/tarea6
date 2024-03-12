@@ -25,7 +25,7 @@ class WeatherView extends StatefulWidget {
 }
 
 class _WeatherViewState extends State<WeatherView> {
-  String apiKey = 'd7vddvx3o7svoykpszb5rowm77gnedqgcdwx4m4n';
+  String apiKey = '';
   double currentTemperature = 0;
   String currentCondition = '';
   bool showHourly = false;
